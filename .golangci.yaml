@@ -1,0 +1,23 @@
+linters-settings:
+  govet:
+    disable-all: true
+    enable:
+    - fieldalignment
+  errcheck:
+    ignore: ""
+
+linters:
+  enable-all: false
+  enable:
+    - govet
+    - errcheck
+    - staticcheck
+    - gocritic
+    - unused
+    - unconvert
+    - ineffassign
+    - prealloc
+    - goconst
+    - whitespace
+    - mnd
+  fast: false
